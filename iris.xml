@@ -1,0 +1,14 @@
+<manifest>
+    <remote name="krautcat-github" fetch=".." revision="master"/>
+    <remote name="qmk-github" fetch="../../qmk" revision="refs/tags/0.9.10"/>
+
+    <default remote="krautcat-github" revision="master"/>
+
+    <project name="qmk_firmware" path="." remote="qmk-github"/>
+    <project name="qmk-build" path="build">
+        <linkfile src="gitignore" dest=".git/info/exclude"/>
+    </project>
+    <project name="qmk-keyboards" path="vendor/krautcat">
+        <linkfile src="iris/keymap" dest="keyboards/keebio/iris/keymaps/krautcat"/>
+    </project>
+</manifest>
