@@ -1,0 +1,9 @@
+<manifest>
+    <remote name="krautcat-github" fetch=".." revision="master"/>
+    
+    <default remote="krautcat-github" revision="master"/>
+
+    <project name="qmk-build" path="build">
+        <linkfile src="gitignore" dest=".git/info/exclude"/>
+    </project>
+</manifest>
