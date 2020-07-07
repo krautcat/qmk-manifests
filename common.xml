@@ -3,7 +3,5 @@
     
     <default remote="krautcat-github" revision="master"/>
 
-    <project name="qmk-build" path="build">
-        <linkfile src="gitignore" dest=".git/info/exclude"/>
-    </project>
+    <project name="qmk-build" path="build"/>
 </manifest>
