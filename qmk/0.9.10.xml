@@ -1,0 +1,4 @@
+<manifest>
+    <remote name="qmk-github" fetch="ssh://git@github.com/qmk/" revision="refs/tags/0.9.10"/>
+    <project name="qmk_firmware" path="." remote="qmk-github"/>
+</manifest>

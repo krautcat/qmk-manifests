@@ -1,0 +1,5 @@
+<manifest>
+    <include name="common.xml"/>
+    <include name="qmk/0.9.10.xml"/>
+    <include name="keymaps/keebio/iris.xml"/>
+</manifest>

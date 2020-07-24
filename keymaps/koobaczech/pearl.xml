@@ -1,12 +1,8 @@
 <manifest>
     <remote name="krautcat-github" fetch=".." revision="master"/>
-    <remote name="qmk-github" fetch="../../qmk" revision="refs/tags/0.9.10"/>
 
     <default remote="krautcat-github" revision="master"/>
-
-    <include name="common.xml"/>
-
-    <project name="qmk_firmware" path="." remote="qmk-github"/>
+    
     <project name="qmk-keyboards" path="vendor/krautcat">
         <linkfile src="pearl/keymap" dest="keyboards/pearl/keymaps/krautcat"/>
     </project>
