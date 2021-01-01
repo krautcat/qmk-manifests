@@ -11,8 +11,8 @@
     <project name="qmk-keyboards" path="vendor/krautcat">
         <linkfile src="iris/keymap" dest="keyboards/keebio/iris/keymaps/krautcat"/>
         <linkfule src="pastry_keyboard/corne/via_krautcat_without_oleds"
-              dest="keyboards/crkbd/keymapds/via_krautcat_without_oleds"/>
+              dest="keyboards/crkbd/keymaps/via_krautcat_without_oleds"/>
         <linkfile src="pearlboards/pearl/keymap" dest="keyboards/pearlboards/pearl/keymaps/krautcat"/>
-        <linkfile src="primekb/prime_e/keymap" dest="keyboards/primekb/prime_e/keymapds/krautcat"/>
+        <linkfile src="primekb/prime_e/keymap" dest="keyboards/primekb/prime_e/keymaps/krautcat"/>
     </project>
 </manifest>
