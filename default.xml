@@ -1,8 +1,15 @@
+
 <manifest>
+    <remote name="krautcat-github" fetch=".." revision="master"/>
+
+    <default remote="krautcat-github" revision="master"/>
+    
     <include name="common.xml"/>
 
     <include name="qmk/0.9.10.xml"/>
 
-    <include name="keymaps/keebio/iris.xml"/>
-    <include name="keymaps/koobaczech/pearl.xml"/>
+    <project name="qmk-keyboards" path="vendor/krautcat"/>
+        <linkfile src="iris/keymap" dest="keyboards/keebio/iris/keymaps/krautcat"/>
+        <linkfile src="pearl/keymap" dest="keyboards/pearlboards/pearl/keymaps/krautcat"/>
+    </project>
 </manifest>
