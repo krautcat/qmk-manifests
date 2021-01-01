@@ -8,7 +8,7 @@
 
     <include name="qmk/0.9.10.xml"/>
 
-    <project name="qmk-keyboards" path="vendor/krautcat"/>
+    <project name="qmk-keyboards" path="vendor/krautcat">
         <linkfile src="iris/keymap" dest="keyboards/keebio/iris/keymaps/krautcat"/>
         <linkfule src="pastry_keyboard/corne/via_krautcat_without_oleds"
               dest="keyboards/crkbd/keymapds/via_krautcat_without_oleds"/>
