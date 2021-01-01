@@ -6,7 +6,7 @@
     
     <include name="common.xml"/>
 
-    <include name="qmk/0.9.10.xml"/>
+    <include name="qmk/0.11.34.xml"/>
 
     <project name="qmk-keyboards" path="vendor/krautcat">
         <linkfile src="iris/keymap" dest="keyboards/keebio/iris/keymaps/krautcat"/>
