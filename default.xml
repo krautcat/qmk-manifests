@@ -15,4 +15,6 @@
         <linkfile src="pearlboards/pearl/keymap" dest="keyboards/pearlboards/pearl/keymaps/krautcat"/>
         <linkfile src="primekb/prime_e/keymap" dest="keyboards/primekb/prime_e/keymaps/krautcat"/>
     </project>
+
+    <project name="qmk-userspace" path="users/krautcat"/>
 </manifest>
