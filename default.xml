@@ -10,14 +10,15 @@
     <include name="qmk/0.11.34.xml"/>
 
     <project name="qmk-keyboards" path="vendor/krautcat">
-        <linkfile src="iris/keymap" dest="keyboards/keebio/iris/keymaps/krautcat"/>
+        <linkfile src="checkerboards/atlas/keymap" dest="keyboards/cannonkeys/atlas/keymaps/krautcat">
+        <linkfile src="keebio/iris/keymap" dest="keyboards/keebio/iris/keymaps/krautcat"/>
         <linkfile src="pastry_keyboard/corne/via_krautcat_without_oleds"
               dest="keyboards/crkbd/keymaps/via_krautcat_without_oleds"/>
         <linkfile src="pastry_keyboard/corne/krautcat" dest="keyboards/crkbd/keymaps/krautcat"/>
         <linkfile src="pastry_keyboard/corne/krautcat-2" dest="keyboards/crkbd/keymaps/krautcat-2"/>
         <linkfile src="pearlboards/pearl/keymap" dest="keyboards/pearl/keymaps/krautcat"/>
         <linkfile src="pearlboards/pearl/keymap" dest="keyboards/pearlboards/pearl/keymaps/krautcat"/>
-        <linkfile src="primekb/prime_e/keymap" dest="keyboards/primekb/prime_e/keymaps/krautcat"/>
+        <linkfile src="sneakbox_design/prime_e/keymap" dest="keyboards/primekb/prime_e/keymaps/krautcat"/>
     </project>
 
     <project name="qmk-keyboards-pearl"
