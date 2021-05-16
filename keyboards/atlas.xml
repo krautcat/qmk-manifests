@@ -1,0 +1,15 @@
+<manifest>
+    <remote name="krautcat-github" fetch=".." revision="master"/>
+    
+    <default remote="krautcat-github" revision="master"/>
+    
+    <include name="common.xml"/>
+    
+    <include name="qmk/0.10.54.xml"/>
+
+    <project name="qmk-keyboards" path="vendor/krautcat">
+        <linkfile src="checkerboards/atlas/keymap" dest="keyboards/cannonkeys/atlas/keymaps/krautcat">
+    </project>
+    
+    <project name="qmk-userspace" path="users/krautcat"/>
+</manifest>

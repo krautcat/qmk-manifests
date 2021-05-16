@@ -1,4 +1,3 @@
-
 <manifest>
     <remote name="krautcat-github" fetch=".." revision="master"/>
     <remote name="cringecult-github" fetch="ssh://git@github.com/cringecult" revision="master"/>
