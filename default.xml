@@ -9,7 +9,7 @@
     <include name="qmk/0.11.34.xml"/>
 
     <project name="qmk-keyboards" path="vendor/krautcat">
-        <linkfile src="checkerboards/atlas/keymap" dest="keyboards/cannonkeys/atlas/keymaps/krautcat">
+        <linkfile src="checkerboards/atlas/keymap" dest="keyboards/cannonkeys/atlas/keymaps/krautcat"/>
         <linkfile src="keebio/iris/keymap" dest="keyboards/keebio/iris/keymaps/krautcat"/>
         <linkfile src="pastry_keyboard/corne/via_krautcat_without_oleds"
               dest="keyboards/crkbd/keymaps/via_krautcat_without_oleds"/>
