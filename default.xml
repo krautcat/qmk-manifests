@@ -17,7 +17,7 @@
         <linkfile src="pastry_keyboard/corne/krautcat-2" dest="keyboards/crkbd/keymaps/krautcat-2"/>
         <linkfile src="pearlboards/pearl/keymap" dest="keyboards/pearl/keymaps/krautcat"/>
         <linkfile src="pearlboards/pearl/keymap" dest="keyboards/pearlboards/pearl/keymaps/krautcat"/>
-        <linkfile src="sneakbox_design/prime_e/keymap" dest="keyboards/primekb/prime_e/keymaps/krautcat"/>
+        <linkfile src="sneakbox_design/prime_elise/keymap" dest="keyboards/primekb/prime_e/keymaps/krautcat"/>
     </project>
 
     <project name="qmk-keyboards-pearl"
