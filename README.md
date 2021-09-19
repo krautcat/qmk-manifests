@@ -15,7 +15,7 @@ repo sync -j$(($(nproc) * 2))
 
 build/build init-workspace 
 
-make git-init-submodule
+make git-submodule
 ```
 
 Now you're ready to compile my keymaps!
