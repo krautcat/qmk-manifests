@@ -6,7 +6,7 @@
     
     <include name="common.xml"/>
 
-    <include name="qmk/0.14.16.xml"/>
+    <include name="qmk/0.21.3.xml"/>
 
     <project name="qmk-keyboards" path="vendor/krautcat">
         <linkfile src="checkerboards/atlas/keymap" dest="keyboards/cannonkeys/atlas/keymaps/krautcat"/>
