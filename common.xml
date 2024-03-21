@@ -1,5 +1,5 @@
 <manifest>
-    <remote name="krautcat-github" fetch=".." revision="master"/>
+    <remote name="krautcat-github" fetch="." revision="master"/>
     
     <default remote="krautcat-github" revision="master"/>
 
